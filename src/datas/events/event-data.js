@@ -48,30 +48,6 @@ export const eventData = [
 		featured: false,
 	},
 	{
-		id: 5,
-		eventType: "celestia", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
-		title: "Introducing the Infinite Space Bazaar hackathon",
-		description: "",
-		date: "May 13, 2024",
-		location: "Dubai",
-		category: ["gaming", "blockchain"],
-		url: "https://blog.celestia.org/infinite-space-bazaar/",
-		featured: false,
-	},
-	{
-		id: 6,
-		eventType: "celestia", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
-		title: "Introducing the Infinite Space Bazaar hackathon",
-		description: "",
-		date: "May 20, 2024",
-		location: "Dubai",
-		category: ["gaming", "blockchain"],
-		url: "https://blog.celestia.org/infinite-space-bazaar/",
-		featured: false,
-	},
-	{
 		id: 7,
 		eventType: "celestia", // celestia, community
 		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
