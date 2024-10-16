@@ -150,7 +150,7 @@ export const eventData = [
 		title: "Modular Meetup Rio de Janeiro",
 		description: "",
 		date: "Jun 14, 2024",
-		location: "Rio de Janeiro",
+		location: "Rio",
 		category: ["", ""],
 		url: "https://lu.ma/pevt1mzf",
 		featured: false,
