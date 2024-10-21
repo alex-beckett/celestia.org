@@ -29,7 +29,7 @@ export const eventData = [
 		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
 		title: "Celestia co-working cafe",
 		description: "",
-		date: "Nov 12-15, 2024",
+		date: "Nov 12 - 15, 2024",
 		location: "Bangkok",
 		category: ["", ""],
 		url: "https://blog.celestia.org/infinite-space-bazaar/",
@@ -41,7 +41,7 @@ export const eventData = [
 		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
 		title: "Modular Summit 3.0",
 		description: "",
-		date: "Jul 11-13, 2024",
+		date: "Jul 11 - 13, 2024",
 		location: "Brussels",
 		category: ["", ""],
 		url: "https://modularsummit.dev/",
