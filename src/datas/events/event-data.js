@@ -2,7 +2,7 @@ export const eventData = [
 	{
 		id: 1,
 		eventType: "celestia", // celestia, community
-		image: "events/event-1.png", // use 1200x800px image for cover image (3:2 ratio)
+		image: "events/rejected.png", // use 1200x800px image for cover image (3:2 ratio)
 		title: "Rejected",
 		description: "",
 		date: "Nov 11, 2024",
@@ -29,7 +29,7 @@ export const eventData = [
 		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
 		title: "Celestia co-working cafe",
 		description: "",
-		date: "Nov 12 - 15, 2024",
+		date: "Nov 12-15, 2024",
 		location: "Bangkok",
 		category: ["", ""],
 		url: "https://blog.celestia.org/infinite-space-bazaar/",
@@ -38,43 +38,19 @@ export const eventData = [
 	{
 		id: 4,
 		eventType: "celestia", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
+		image: "events/modular-summit-3.png", // use 1200x800px image for cover image (3:2 ratio)
 		title: "Modular Summit 3.0",
 		description: "",
-		date: "Jul 11 - 13, 2024",
+		date: "Jul 11-13, 2024",
 		location: "Brussels",
 		category: ["", ""],
 		url: "https://modularsummit.dev/",
 		featured: false,
 	},
 	{
-		id: 5,
-		eventType: "celestia", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
-		title: "Introducing the Infinite Space Bazaar hackathon",
-		description: "",
-		date: "May 13, 2024",
-		location: "Dubai",
-		category: ["gaming", "blockchain"],
-		url: "https://blog.celestia.org/infinite-space-bazaar/",
-		featured: false,
-	},
-	{
-		id: 6,
-		eventType: "celestia", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
-		title: "Introducing the Infinite Space Bazaar hackathon",
-		description: "",
-		date: "May 20, 2024",
-		location: "Dubai",
-		category: ["gaming", "blockchain"],
-		url: "https://blog.celestia.org/infinite-space-bazaar/",
-		featured: false,
-	},
-	{
 		id: 7,
 		eventType: "celestia", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
+		image: "events/modular-day-2.png", // use 1200x800px image for cover image (3:2 ratio)
 		title: "Modular Day",
 		description: "",
 		date: "Feb 28, 2024",
@@ -86,25 +62,13 @@ export const eventData = [
 	{
 		id: 8,
 		eventType: "celestia", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
-		title: "Celestia in Dubai",
+		image: "events/mod-acc.png", // use 1200x800px image for cover image (3:2 ratio)
+		title: "Modular Acceleration",
 		description: "",
 		date: "Mar 1, 2024",
 		location: "Denver",
 		category: ["", ""],
 		url: "https://lu.ma/modacc",
-		featured: false,
-	},
-	{
-		id: 9,
-		eventType: "community", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
-		title: "Celestia in Dubai",
-		description: "",
-		date: "Apr 22, 2024",
-		location: "Dubai",
-		category: ["gaming", "blockchain"],
-		url: "https://blog.celestia.org/celestia-in-dubai/",
 		featured: false,
 	},
 	{
@@ -182,7 +146,7 @@ export const eventData = [
 	{
 		id: 16,
 		eventType: "celestia", // celestia, community
-		image: "events/placeholder-1.png", // use 1200x800px image for cover image (3:2 ratio)
+		image: "events/modular-day.png", // use 1200x800px image for cover image (3:2 ratio)
 		title: "Modular Day",
 		description: "",
 		date: "Nov 13, 2023",
