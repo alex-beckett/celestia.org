@@ -50,7 +50,7 @@ export const ecosystemData = {
 			title: "Dscvr",
 			description: "The social home for Web3 communities.",
 			image: "/images/app/ecosystem/dscvr.png",
-			url: "https://x.com/DSCVR1",
+			url: "https://dscvr.one/",
 			category: "consumer",
 			subcategory: "apps",
 		},
@@ -75,7 +75,7 @@ export const ecosystemData = {
 		{
 			title: "Flame",
 			description: "Celestia native DeFi.",
-			image: "/images/app/ecosystem/placeholder.png",
+			image: "/images/app/ecosystem/flame.png",
 			url: "https://flame.astria.org/swap",
 			category: "defi",
 			subcategory: "apps",
@@ -175,7 +175,7 @@ export const ecosystemData = {
         {
 			title: "Kamigotchi",
 			description: "An onchain universe.",
-			image: "/images/app/ecosystem/kamitgotchi.png",
+			image: "/images/app/ecosystem/kamigotchi.png",
 			url: "https://playtest.kamigotchi.io/",
 			category: "gaming",
 			subcategory: "apps",
@@ -388,7 +388,7 @@ export const ecosystemData = {
 		{
 			title: "Mintscan",
 			description: "Celestia block explorer.",
-			image: "/images/app/ecosystem/placeholder.png",
+			image: "/images/app/ecosystem/mintscan.png",
 			url: "https://www.mintscan.io/celestia",
 			category: "explorer",
 			subcategory: "dev-tooling",
@@ -396,7 +396,7 @@ export const ecosystemData = {
 
 		// Infrastructure
 		{
-			title: "Succint",
+			title: "Succinct",
 			description: "Prove the world’s software.",
 			image: "/images/app/ecosystem/succinct.png",
 			url: "https://www.succinct.xyz/",
@@ -404,7 +404,7 @@ export const ecosystemData = {
 			subcategory: "dev-tooling",
 		},
 		{
-			title: "Risc Zero",
+			title: "RISC Zero",
 			description: "The world's first RISC-V zkVM.",
 			image: "/images/app/ecosystem/risczero.png",
 			url: "https://risczero.com/",
