@@ -31,7 +31,7 @@ export const ecosystemData = {
 		{
 			title: "Abstract",
 			description: "Abstract is the platform powering the next generation of consumer crypto.",
-			image: "/images/app/ecosystem/placeholder.png",
+			image: "/images/app/ecosystem/abstract.png",
 			url: "#",
 			category: "consumer",
 			subcategory: "apps",
@@ -39,7 +39,7 @@ export const ecosystemData = {
 		{
 			title: "Towns",
 			description: "A decentralized social platform built on Celestia.",
-			image: "/images/app/ecosystem/placeholder.png",
+			image: "/images/app/ecosystem/towns.png",
 			url: "#",
 			category: "consumer",
 			subcategory: "apps",
@@ -55,7 +55,7 @@ export const ecosystemData = {
 		{
 			title: "Stack",
 			description: "Building the future of decentralized applications.",
-			image: "/images/app/ecosystem/placeholder.png",
+			image: "/images/app/ecosystem/stack.png",
 			url: "#",
 			category: "consumer",
 			subcategory: "apps",
