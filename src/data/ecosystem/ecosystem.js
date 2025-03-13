@@ -470,7 +470,7 @@ export const ecosystemItems = [
 	},
 	{
 		title: "Blockscout",
-		image: "/images/app/ecosystem/blockscount.png",
+		image: "/images/app/ecosystem/blockscout.png",
 		description: "",
 		url: "https://www.blockscout.com/",
 		categories: ["explorer"],
