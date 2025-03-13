@@ -123,12 +123,12 @@ export default async function Home() {
 export const getPosts = async () => {
 	try {
 		const res = await fetch(
-			"https://blog.celestia.org/ghost/api/v3/content/posts/?key=91c2a7dc379b796be090aeab63&limit=6&fields=title,text,feature_image,url,excerpt,published_at&formats=plaintext"
+			`https://blog.celestia.org/ghost/api/v3/content/posts/?key=${process.env.NEXT_PUBLIC_GHOST_API_KEY || '91c2a7dc379b796be090aeab63'}&limit=6&fields=title,text,feature_image,url,excerpt,published_at&formats=plaintext`
 		);
 		
 		if (!res.ok) {
 			console.error(`Ghost API responded with status: ${res.status}`);
-			throw new Error(`Ghost API responded with status: ${res.status}`);
+			return [];
 		}
 
 		const responseJson = await res.json();
@@ -136,12 +136,12 @@ export const getPosts = async () => {
 
 		if (!posts) {
 			console.error('No posts found in response:', responseJson);
-			throw new Error("Failed to fetch blog posts");
+			return [];
 		}
 
 		return posts;
 	} catch (error) {
 		console.error('Error fetching blog posts:', error);
-		throw error;
+		return [];
 	}
 };

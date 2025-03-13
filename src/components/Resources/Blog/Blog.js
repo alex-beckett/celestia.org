@@ -8,6 +8,11 @@ import Image from "next/image";
 import { formatDateToMonthDayYear } from "@/utils/formatDate";
 
 const Blog = ({ posts }) => {
+  // If posts is empty or undefined, don't render anything
+  if (!posts || posts.length === 0) {
+    return null;
+  }
+  
   return (
     <section>
       <Container

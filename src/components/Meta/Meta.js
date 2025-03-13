@@ -10,11 +10,15 @@ const meta = (seo = { title: null, description: null, image: null }) => {
 	const metaDescription = description || defaultSeo.description;
 	const metaImage = image || defaultSeo.image;
 
+	// Get the site URL from environment variable or use a default
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://celestia.org/';
+
 	return {
 		title: metaTitle,
 		description: metaDescription,
+		metadataBase: new URL(siteUrl),
 		openGraph: {
-			images: [`${process.env.NEXT_PUBLIC_SITE_URL}${metaImage}`],
+			images: [`${metaImage}`],
 		},
 	};
 };
