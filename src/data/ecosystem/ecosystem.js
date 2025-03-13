@@ -14,13 +14,6 @@ export const ecosystemItems = [
 		categories: ["Rollups"],
 	},
 	{
-		title: "POKT Network",
-		image: "/images/app/ecosystem/poktnetwork.png",
-		description: "",
-		url: "https://www.pokt.network/",
-		categories: [],
-	},
-	{
 		title: "Eclipse",
 		image: "/images/app/ecosystem/eclipse.png",
 		description: "",
@@ -239,14 +232,14 @@ export const ecosystemItems = [
 	},
 	{
 		title: "Celestia Data",
-		image: "/images/app/ecosystem/celestiadata.png",
+		image: "/images/app/ecosystem/celestia-data.png",
 		description: "",
 		url: "https://celestia.observer/",
 		categories: ["Analytics"],
 	},
 	{
 		title: "Blockworks Research",
-		image: "/images/app/ecosystem/blockworks.png",
+		image: "/images/app/ecosystem/blockworks-res.png",
 		description: "",
 		url: "https://www.blockworksresearch.com/",
 		categories: ["Analytics"],
@@ -267,7 +260,7 @@ export const ecosystemItems = [
 	},
 	{
 		title: "RARI Chain",
-		image: "/images/app/ecosystem/rarichain.png",
+		image: "/images/app/ecosystem/rari.png",
 		description: "",
 		url: "https://rarichain.org/",
 		categories: ["chains"],
@@ -281,21 +274,21 @@ export const ecosystemItems = [
 	},
 	{
 		title: "ABC Stack",
-		image: "/images/app/ecosystem/abcstack.png",
+		image: "/images/app/ecosystem/abc.png",
 		description: "",
 		url: "https://www.abcstack.org/",
 		categories: ["rollup-stacks"],
 	},
 	{
 		title: "ZK Stack",
-		image: "/images/app/ecosystem/zkstack.png",
+		image: "/images/app/ecosystem/zk-stack.png",
 		description: "",
 		url: "https://www.zkstack.io/",
 		categories: ["rollup-stacks"],
 	},
 	{
 		title: "OP Succinct",
-		image: "/images/app/ecosystem/opsuccinct.png",
+		image: "/images/app/ecosystem/op-succinct.png",
 		description: "",
 		url: "https://docs.optimism.io/stack/getting-started",
 		categories: ["rollup-stacks"],
@@ -470,9 +463,16 @@ export const ecosystemItems = [
 	},
 	{
 		title: "Echos.fun",
-		image: "/images/app/ecosystem/echos.png",
+		image: "/images/app/ecosystem/echos-fun.png",
 		description: "",
 		url: "https://echos.fun/",
 		categories: ["other"],
+	},
+	{
+		title: "Blockscout",
+		image: "/images/app/ecosystem/blockscount.png",
+		description: "",
+		url: "https://www.blockscout.com/",
+		categories: ["explorer"],
 	},
 ];
