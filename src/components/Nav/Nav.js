@@ -12,6 +12,7 @@ import DesktopNav from "./DesktopNav";
 import JumpNav from "./JumpNav";
 import MobileNavDropdown from "./MobileNavDropdown";
 import MenuData from "./data";
+import Banner from "@/components/Banner/Banner";
 
 const Nav = () => {
 	const [hasScrolled, setHasScrolled] = useState(false);
