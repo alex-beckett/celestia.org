@@ -54,7 +54,7 @@ const Nav = () => {
 				className={`fixed top-0 left-0 w-full z-50`}
 				ref={primaryNavRef}
 			>
-				{/* <Banner />  */}
+				<Banner /> 
 				<Container size={"lg"} padding={false}>
 					<div
 						className={`relative w-full flex justify-between items-center py-6 z-50 filter px-4 md:px-10 ${
@@ -63,7 +63,7 @@ const Nav = () => {
 					>
 						<Link href={`/`}>
 							<Image
-								src={`/images/celestia-logo.svg`}
+								src={`/images/celestia-logo.svg`}  
 								alt={`Celestia logo | Home`}
 								width={128}
 								height={32}
