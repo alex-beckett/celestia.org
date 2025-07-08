@@ -53,10 +53,10 @@ export default async function Home() {
 				id={"explore-celestia"}
 				rows={[
 					{
-						title: "Unstoppable apps",
+						title: "Verifiable Encryption",
 						body: [
-							"Send money like a meme, craft onchain worlds, or deploy programs that outlive you.",
-							"Celestia powers apps that work in every corner of the planet – unstoppable by intermediaries and verifiable from any device.",
+							"Apps can publish encrypted data to Celestia and selectively disclose it — proving that the data is valid, available, and exactly what it claims to be.",
+							"Verifiable encryption unlocks private exchanges that protect user data and customizable enterprise networks that can interoperate with ease.",
 						],
 						buttons: [
 							{ text: "Build", url: "/build", type: "secondary", trackEvent: ANALYTICS_EVENTS.HOMEPAGE_UNSTOPPABLE_BUILD },
