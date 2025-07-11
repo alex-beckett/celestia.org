@@ -33,7 +33,7 @@ export default function PrivateDAPage() {
 	return (
 		<>
 			<PrimaryHero
-				headline={`Private DA`}
+				headline={`Verifiable encryption`}
 				subheadline={<span className='max-w-[550px] block'>Post privately. Prove publicly.</span>}
 				buttons={[]}
 				videos={{
