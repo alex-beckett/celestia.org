@@ -361,7 +361,7 @@ export default function IgniteClient() {
 	return (
 		<div className='bg-[#040215] min-h-screen'>
 			{/* Hero Section - Background with floating mammoth */}
-			<section className='relative overflow-hidden aspect-square md:aspect-[7/4] lg:aspect-[12/4]'>
+			<section className='relative overflow-hidden aspect-square md:aspect-[7/4] lg:aspect-[20/9] xl:aspect-[22/7]'>
 				<motion.div
 					className='w-full h-full'
 					initial={{ opacity: 0 }}
@@ -369,7 +369,8 @@ export default function IgniteClient() {
 					transition={{ duration: 1.5, ease: [0.25, 0.1, 0.25, 1] }}
 				>
 					<Image
-						src='/images/app/mammoth/mammoth-hero-wide-no-logo.jpg'
+						src='/images/app/mammoth/R4_Final_Upscaled_Clean-expanded.png'
+						// src='/images/app/mammoth/mammoth-hero-wide-no-logo.jpg'
 						alt='Mammoth Hero Background'
 						width={1920}
 						height={1080}
@@ -446,7 +447,7 @@ export default function IgniteClient() {
 				</div>
 
 				{/* Celestia Logo Sign Post */}
-				<motion.div
+				{/* <motion.div
 					className='absolute w-[12vw] sm:w-[8vw] md:w-[6vw] bottom-[8%] right-[22%] sm:right-[28%] md:right-[37%]'
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
@@ -469,8 +470,6 @@ export default function IgniteClient() {
 							className='absolute transform left-[54%] -translate-x-1/2 w-[70%] h-[50%] top-[2%] opacity-50 overflow-hidden'
 							onMouseEnter={triggerSheen}
 						>
-							{/* Repeatable Sheen Effect */}
-							{/* Using key forces re-render and animation reset on each hover */}
 							<div
 								key={sheenKey}
 								className='absolute inset-0 -translate-x-full animate-sheen w-[300%]'
@@ -482,10 +481,10 @@ export default function IgniteClient() {
 							/>
 						</div>
 					</div>
-				</motion.div>
+				</motion.div> */}
 
 				{/* Floating Mammoth Overlay */}
-				<motion.div
+				{/* <motion.div
 					className='absolute w-[35vw] md:w-[16vw] lg:w-[15vw]'
 					initial={{ opacity: 0, y: 50, bottom: "16%", left: "50%", x: "-50%", rotate: 0 }}
 					animate={{
@@ -523,7 +522,7 @@ export default function IgniteClient() {
 							priority
 						/>
 					</div>
-				</motion.div>
+				</motion.div> */}
 			</section>
 
 			{/* Main Content Section */}
