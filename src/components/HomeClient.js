@@ -62,8 +62,8 @@ export default function HomeClient() {
 			<AppsCarousel items={appItems} />
 
 			<EdenSection
-				headline='The home of Celestia DeFi'
-				subheadline='Eden is the native execution environment of the Celestia network. Serving as the hub for TIA DeFi, Eden enables anyone to directly deploy and use applications in a credibly neutral environment.'
+				headline='The TIA-native DeFi hub'
+				subheadline='Eden is Celestia’s TIA-native DeFi hub. As a new component within the Celestia network, Eden provides a fast path to market and the mainstage for TIA-centric internet finance.'
 				buttons={[{ text: "Enter Eden", url: "http://eden.celestia.org/", trackEvent: ANALYTICS_EVENTS.HERO_EXPLORE }]}
 				backgroundImage='/images/app/homepage/eden-bg.jpg'
 			/>
