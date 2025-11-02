@@ -63,7 +63,7 @@ export default function HomeClient() {
 
 			<EdenSection
 				headline='The TIA-native DeFi hub'
-				subheadline='Eden is Celestia’s TIA-native DeFi hub. As a new component within the Celestia network, Eden provides a fast path to market and the mainstage for TIA-centric internet finance.'
+				subheadline='As a new component within the Celestia network, Eden provides a fast path to market and the mainstage for TIA-centric internet finance.'
 				buttons={[{ text: "Enter Eden", url: "http://eden.celestia.org/", trackEvent: ANALYTICS_EVENTS.HERO_EXPLORE }]}
 				backgroundImage='/images/app/homepage/eden-bg.jpg'
 			/>
