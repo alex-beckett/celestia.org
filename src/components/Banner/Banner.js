@@ -39,7 +39,7 @@ export default function Banner({ showBanner = true }) {
 				<div className='flex flex-col justify-between gap-0 sm:gap-2 md:flex-row'>
 					<div className='flex justify-between md:items-center gap-2'>
 						<div className='flex items-center'>
-							<p className='font-medium text-white text-[18px] sm:text-[18px] leading-5'>Celestia’s DeFi hub, Eden, is live!</p>
+							<p className='font-medium text-white text-[18px] sm:text-[18px] leading-5'>The TIA DeFi hub, Eden, is here!</p>
 						</div>
 						<button
 							type='button'
