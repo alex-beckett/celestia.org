@@ -65,9 +65,7 @@ export default function PrivateDAPage() {
 						<Col width={100}>
 							<div>
 								<Body className='!text-2xl !leading-9 text-left font-youth sm:text-center sm:!text-3xl lg:!text-[32px] lg:!leading-[42px] xl:!text-[40px] xl:!leading-[56px] sm:!text-balance'>
-									<span className='font-medium text-[#9747FF]'>Celestia’s Private Data Availability</span> service lets applications
-									publish encrypted data to Celestia—while still proving that the data is valid, available, and exactly what it
-									claims to be.
+									Private DA lets networks publish encrypted data to Celestia that maintains user privacy, with verifiable guarantees.
 								</Body>
 							</div>
 						</Col>
@@ -82,25 +80,25 @@ export default function PrivateDAPage() {
 							Confidential
 						</Heading>
 						<Body size='md' className='mt-auto'>
-							Selectively disclose sensitive data (e.g user info, trading strategies)
+							Keep balances, positions, order sizes, and counterparties hidden.
 						</Body>
 					</div>
 
 					<div className='border-b md:border-b-0 md:border-r border-[#D3CED7] px-6 py-10 sm:p-12 flex flex-col justify-between min-h-[210px] sm:min-h-[280px]'>
 						<Heading size='md' tag='h3' className='mb-4'>
-							Verifiable
+							Auditable
 						</Heading>
 						<Body size='md' className='mt-auto'>
-							Anchor Point provides verifiable claims on encrypted data without decrypting it.
+							Grant third parties selective access to transaction data.
 						</Body>
 					</div>
 
 					<div className='px-6 py-10 sm:p-12 flex flex-col justify-between min-h-[210px] sm:min-h-[280px]'>
 						<Heading size='md' tag='h3' className='mb-4'>
-							Scalable
+							Recoverable
 						</Heading>
 						<Body size='md' className='mt-auto'>
-							Leverage Celestia&apos;s battle tested high throughput DA layer.
+							Enable users to recover funds during network stalls (requires additional app-logic changes).
 						</Body>
 					</div>
 				</div>
@@ -138,12 +136,12 @@ export default function PrivateDAPage() {
 							<div className='grid grid-cols-1 md:grid-cols-[8fr_4fr] border-b border-white/[0.16] py-8 sm:px-6'>
 								<div>
 									<Heading size='sm' tag='h3' className='max-w-[512px] mb-4 md:mb-0 text-white'>
-										Private orderbooks
+										Private exchange
 									</Heading>
 								</div>
 								<div>
 									<Body size='md' className='max-w-[400px] text-white'>
-										Selectively disclose sensitive data (e.g.user info, trading strategies)
+										Build a Robinhood-style onchain exchange where balances, positions, and order sizes remain confidential as users expect.
 									</Body>
 								</div>
 							</div>
@@ -151,12 +149,12 @@ export default function PrivateDAPage() {
 							<div className='grid grid-cols-1 md:grid-cols-[8fr_4fr] border-b border-white/[0.16] py-8 sm:px-6'>
 								<div>
 									<Heading size='sm' tag='h3' className='max-w-[512px] mb-4 md:mb-0 text-white'>
-										Verifiable backups
+										Confidential payments
 									</Heading>
 								</div>
 								<div>
 									<Body size='md' className='max-w-[400px] text-white'>
-										Anchor Point provides verifiable claims on encrypted data without decrypting it.
+										Facilitate stablecoin payments where transfer details and counterparties remain invisible to the public.
 									</Body>
 								</div>
 							</div>
@@ -164,12 +162,12 @@ export default function PrivateDAPage() {
 							<div className='grid grid-cols-1 md:grid-cols-[8fr_4fr] py-8 sm:px-6'>
 								<div>
 									<Heading size='sm' tag='h3' className='max-w-[512px] mb-4 md:mb-0 text-white'>
-										Confidential voting
+										Confidential real-world assets
 									</Heading>
 								</div>
 								<div>
 									<Body size='md' className='max-w-[400px] text-white'>
-										Leverage Celestia&apos;s battle tested high throughput DA layer.
+										Tokenize funds, deposits, or debt for institutions without publicly revealing holdings.
 									</Body>
 								</div>
 							</div>
@@ -235,11 +233,10 @@ export default function PrivateDAPage() {
 					<Row className='flex flex-col lg:flex-row items-center justify-between gap-12'>
 						<Col width={50} className='pr-8'>
 							<h2 className='font-youth text-[32px] sm:text-[42px] lg:text-[54px] leading-[1.073171] mb-6'>
-								Private account balances when trading with Hibachi
+								Private perps trading on Hibachi
 							</h2>
 							<p className='text-lg sm:text-xl leading-7 sm:leading-8 lg:max-w-[509px]'>
-								Private DA allows Hibachi to maintain a private exchange for traders without leaking sensitive information, such as
-								account balances, in the event they need to exit their funds.
+								Hibachi leverages private DA to keep trader balances and positions private while availability and correctness are publicly verifiable on Celestia.
 							</p>
 						</Col>
 						<Col width={50} className='lg:max-w-[512px]'>
@@ -262,7 +259,7 @@ export default function PrivateDAPage() {
 							<div className='relative w-full' style={{ paddingBottom: "56.25%" }}>
 								<iframe
 									className='absolute top-0 left-0 w-full h-full rounded-2xl'
-									src='https://www.youtube.com/embed/dQw4w9WgXcQ'
+									src='https://www.youtube.com/embed/6P7yWZ4Cshs'
 									title='Private Data Availability Demo'
 									allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
 									allowFullScreen
