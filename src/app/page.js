@@ -53,16 +53,16 @@ export default async function Home() {
 				id={"explore-celestia"}
 				rows={[
 					{
-						title: "Verifiable Encryption",
+						title: "Unstoppable apps",
 						body: [
-							"Apps can publish encrypted data to Celestia and selectively disclose it — proving that the data is valid, available, and exactly what it claims to be.",
-							"Verifiable encryption unlocks private exchanges that protect user data and customizable enterprise networks that can interoperate with ease.",
+							"Send money like a meme, craft onchain worlds, or deploy programs that outlive you.",
+							"Celestia powers apps that work in every corner of the planet – unstoppable by intermediaries and verifiable from any device.",
 						],
 						buttons: [
 							{ text: "Build", url: "/build", type: "secondary", trackEvent: ANALYTICS_EVENTS.HOMEPAGE_UNSTOPPABLE_BUILD },
 							{ text: "Deploy", url: "/build#rollups", type: "primary", trackEvent: ANALYTICS_EVENTS.HOMEPAGE_UNSTOPPABLE_DEPLOY },
 						],
-						videoSrc: "/videos/home/web_droplet_v2_simple_merge.mp4 ",
+						videoSrc: "/videos/home/CE_BLOB.mp4 ",
 					},
 					{
 						title: "Full-stack control",
@@ -77,13 +77,10 @@ export default async function Home() {
 						videoSrc: "/videos/home/CE_Under.mp4 ",
 					},
 					{
-						title: "Onchain Abundance",
+						title: "Verifiable encryption",
 						body: [
-							"Build expressive applications previously unimaginable onchain.",
-							<React.Fragment key='roadmap-text'>
-								Celestia&apos;s <Link href={"https://blog.celestia.org/roadmap/"}>roadmap</Link> has a core objective: relentlessly
-								scale beyond 1 GB/s data throughput, removing crypto&apos;s ultimate scaling bottleneck.
-							</React.Fragment>,
+							"Build enterprise-grade confidential trading, payments, and tokenization products onchain.",
+							"Private DA lets networks publish encrypted data to Celestia that maintains users privacy, with publicly verifiable guarantees.",
 						],
 						buttons: [
 							{
