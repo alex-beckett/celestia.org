@@ -79,8 +79,8 @@ export default async function Home() {
 					{
 						title: "Verifiable encryption",
 						body: [
-							"Build enterprise-grade confidential trading, payments, and tokenization products onchain.",
-							"Private DA lets networks publish encrypted data to Celestia that maintains users privacy, with publicly verifiable guarantees.",
+							"Build enterprise-grade confidential finance apps onchain.",
+							"Private DA lets networks publish verifiably encrypted data to Celestia that maintains user privacy.",
 						],
 						buttons: [
 							{
