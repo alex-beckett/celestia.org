@@ -84,7 +84,7 @@ export default async function Home() {
 						],
 						buttons: [
 							{
-								text: "Learn Celestia",
+								text: "Build",
 								url: "/what-is-celestia",
 								type: "secondary",
 								trackEvent: ANALYTICS_EVENTS.HOMEPAGE_ABUNDANCE_LEARN,
