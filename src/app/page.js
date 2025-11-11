@@ -77,10 +77,10 @@ export default async function Home() {
 						videoSrc: "/videos/home/CE_Under.mp4 ",
 					},
 					{
-						title: "Verifiable encryption",
+						title: "Private Blockspace",
 						body: [
-							"Build enterprise-grade confidential finance apps onchain.",
-							"Private DA lets networks publish verifiably encrypted data to Celestia that maintains user privacy.",
+							"Build confidential finance apps onchain.",
+							"Private Blockspace lets networks publish encrypted data to Celestia that maintains user privacy while verifiable.",
 						],
 						buttons: [
 							{
