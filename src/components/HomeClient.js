@@ -88,13 +88,10 @@ export default function HomeClient() {
 						videoSrc: "/videos/home/CE_Under.mp4 ",
 					},
 					{
-						title: "Onchain Abundance",
+						title: "Private Blockspace",
 						body: [
-							"Build expressive applications previously unimaginable onchain.",
-							<React.Fragment key='roadmap-text'>
-								Celestia&apos;s <Link href={"https://blog.celestia.org/roadmap/"}>roadmap</Link> has a core objective: relentlessly
-								scale beyond 1 GB/s data throughput, removing crypto&apos;s ultimate scaling bottleneck.
-							</React.Fragment>,
+							"Build confidential finance apps onchain.",
+							"Private Blockspace lets networks publish encrypted data to Celestia that maintains user privacy while verifiable.",
 						],
 						buttons: [
 							{
